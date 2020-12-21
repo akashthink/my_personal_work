@@ -1,0 +1,87 @@
+Functions types
+Lambda,map,filters
+Generator,Iterator
+
+
+
+Oops:
+Variables & Methods
+Super
+Inheritance
+Polymorphism
+Abstraction(Abstract class & Interface)
+Encapsulation
+
+
+Exception Handling
+File Handling
+
+
+
+
+Encapsulation in Python:-
+
+Capsule--->
+Grouping/combining data member and member function in single unit is known as Encp.
+
+Restrict access to method and variable 
+
+Prevent data from direct modification
+
+Advantage:
+1-Security
+2-Enhancement will be easy{without affecting outside we can able to perform any type of change internally }
+3-Maintainability
+4-Modularity
+
+Disadvantage:
+1-Time consuming process slows the speed
+2-Username/password/Otp 
+
+
+__  private variable:
+
+
+
+ Type                       Description
+    
+private variables  ----  Accessible only in their own class starts with two underscore
+private methods    ----  Accessible only in their own class or by a method defined with two underscore
+   
+class Computer:
+
+    def __init__(self):
+        self.__maxprice = 900
+
+    def sell(self):
+        print("Selling Price: {}".format(self.__maxprice))
+
+    def setMaxPrice(self, price):
+        self.__maxprice = price
+
+c = Computer()
+c.sell()
+
+# change the price
+c.__maxprice = 1000
+c.sell()
+
+# using setter function
+c.setMaxPrice(1000)
+c.sell()
+
+Output
+
+Selling Price: 900
+Selling Price: 900
+Selling Price: 1000
+
+
+
+
+
+
+
+9511113102
+
+

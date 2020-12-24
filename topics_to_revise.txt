@@ -93,11 +93,38 @@ Selling Price: 900
 Selling Price: 1000
 
 
-
-
-
-
-
 9511113102
+
+Forms
+
+Every data goes in backened as string.
+
+For input elements we should define label that means the box will be assocaited with the label.
+
+<label for="">Enter name</label>
+<input id="uname" type="text" name="username" value="enter name">
+
+Mandatory fields:
+< input type="...."  .....  required>
+
+Placeholder vs value:
+<placeholder ="Enter name">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
